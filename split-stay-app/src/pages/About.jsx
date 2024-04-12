@@ -2,15 +2,12 @@ import React from 'react';
 import SectionText from '../components/SectionText';
 import SectionImage from '../components/SectionImage';
 import SectionContainer from '../components/SectionContainer';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import { HomeButtons_Solid } from '../components/HomeButtons';
 import OurTeam from '../components/OurTeam';
 
 const AboutUs = () => {
   return (
     <>
-    <Navbar/>
     <div className="container mx-auto pt-52">
         <div className='flex flex-col items-center gap-24'>
 <SectionText
@@ -74,7 +71,6 @@ const AboutUs = () => {
       </div>
 </div>
     </div>
-    <Footer/>
     </>
   );
 };
