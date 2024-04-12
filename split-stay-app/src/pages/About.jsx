@@ -72,7 +72,6 @@ const AboutUs = () => {
       />
       </SectionContainer>
       </div>
-      
 </div>
     </div>
     <Footer/>
